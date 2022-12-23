@@ -481,7 +481,7 @@ h2 {
     .request {
         position: absolute;
         height: 24px;
-        padding: 12px 16px;
+        padding: 12px 12px;
         font-weight: 700;
         font-size: 14px;
         line-height: 24px;
@@ -720,4 +720,64 @@ h2 {
         margin-top: 66px;
         text-align: center;
     }
+}
+
+/* Tablet*/
+
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  
+    .head{
+        position: absolute;
+            width: 689px;
+            height: 56px;
+    }
+
+    .supper{
+        position: absolute;
+            width: 689px;
+            height: 482px;
+    }
+    .line{
+        position: absolute;
+            width: 232px;
+            height: 29px;
+            margin-top: 20px;
+    }
+    .textxl{
+    position: absolute;
+        width: 573px;
+        height: 129px;
+        font-family: 'Epilogue';
+            font-weight: 400;
+            font-size: 56px;
+            line-height: 64px;
+            letter-spacing: -0.777778px;
+                color: #172339;
+    }
+    .textsm{
+        position: absolute;
+            width: 350px;
+            height: 84px;
+            font-family: 'Epilogue';
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 28px;
+                letter-spacing: 0.0888889px;
+                color: #49566D;
+    }
+    .Access{
+        position: absolute;
+            width: 193px;
+            height: 32px;
+            font-family: 'Epilogue';
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 32px;
+                letter-spacing: -0.18px;
+                color: #FAF8F6;
+                padding: 15px 31px 15px 31px;
+                text-align: center;
+    }
+
+    
 }
