@@ -1,696 +1,374 @@
 @import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@700&family=Roboto:ital,wght@1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Epilogue&family=Roboto:ital,wght@1,900&display=swap');
 
-body {
-    background-color: #F2F2F2;
+* {
     margin: 0;
     padding: 0;
-    font-family: 'Epilogue', sans-serif;
-    width: 100%;
-    height: 100%;
     box-sizing: border-box;
-}
-
-h2 {
-    margin: 0px;
-}
-
-.heading {
-    width: 1108.85px;
-    height: 56px;
-    margin: 50px 165px 0px 165px;
-}
-
-.head {
-    display: flex;
-    justify-content: space-between;
-}
-
-.image1 {
-    width: 78.41px;
-    height: 24.8px;
-}
-
-.request {
-    width: 219px;
-    height: 56px;
     font-family: 'Epilogue';
     font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 32px;
-    letter-spacing: 0.16px;
-    border: 1px solid #172339;
-    border-radius: 6px;
-    box-sizing: border-box;
-    padding: 12px 20px;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    cursor: pointer;
 }
 
-.request:hover {
-    background-color: #172339;
-    color: #FAF8F6;
-    ;
+body {
+    background: #F2F2F2;
 }
 
-.supper {
-    position: absolute;
-    margin: 67px 165px 0px 165px;
-    position: absolute;
-    width: 1110px;
-    height: 600px;
-    background: url(./assets/image-hero-portrait.\ real.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-position-x: 473px;
-    margin-bottom: 155px;
-}
+@media only screen and (min-width: 1024px) {
+    h2 {
+        margin: 0px;
+    }
 
-.line {
-    position: absolute;
-    margin: 50px 534px 519px 289px;
-    width: 287px;
-    height: 32px;
-
-
-}
-
-.textxl {
-    position: absolute;
-    width: 635px;
-    height: 156px;
-    font-family: 'Epilogue';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 72px;
-    line-height: 78px;
-    letter-spacing: -1px;
-    color: #172339;
-
-}
-
-.textsm {
-    position: absolute;
-    width: 350px;
-    height: 96px;
-    margin-top: 272px;
-    font-family: 'Epilogue';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 32px;
-    letter-spacing: 0.1px;
-    color: #49566D;
-}
-
-.Access {
-    position: absolute;
-    font-family: 'Epilogue';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 32px;
-    letter-spacing: -0.18px;
-    color: #FAF8F6;
-    background-color: #172339;
-    border-radius: 6px;
-    margin-top: 420px;
-    padding: 15px 31px;
-    cursor: pointer;
-}
-
-.Access:hover {
-    background: linear-gradient(135deg, #A060FF 0%, #CB30E3 49.21%, #FFA84E 100%);
-}
-
-.phone {
-    position: absolute;
-    width: 350px;
-    height: 600px;
-    right: 450px;
-    left: 474px;
-    border-radius: 15px;
-
-}
-
-.numbers {
-    position: absolute;
-    width: 190px;
-    height: 375px;
-    margin: 30px 165px 0px 890px;
-}
-
-.top {
-    position: absolute;
-    width: 190px;
-    height: 56px;
-    font-family: 'Epilogue';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 56px;
-    letter-spacing: -0.5px;
-    color: #172339;
-    margin-top: 30px;
-
-}
-
-.comp {
-    position: absolute;
-    width: 190px;
-    height: 26px;
-    font-family: 'Epilogue';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
-    letter-spacing: 2.5px;
-    color: #49566D;
-    margin-top: 1px;
-    margin-bottom: 90px;
-}
-
-.first {
-    margin-top: 210px;
-    position: absolute;
-    width: 190px;
-    height: 83px;
-}
-
-.eight {
-    position: absolute;
-    width: 190px;
-    height: 56px;
-    font-family: 'Epilogue';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 56px;
-    letter-spacing: -0.5px;
-    color: #172339;
-}
-
-.lang {
-    position: absolute;
-    width: 190px;
-    height: 26px;
-    font-family: 'Epilogue';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
-    letter-spacing: 2.5px;
-    color: #49566D;
-    margin-top: 1px;
-}
-
-.second {
-    margin-top: 400px;
-    position: absolute;
-    width: 190px;
-    height: 83px;
-}
-
-.money {
-    position: absolute;
-    width: 190px;
-    height: 56px;
-    font-family: 'Epilogue';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 56px;
-    letter-spacing: -0.5px;
-    color: #172339;
-}
-
-.lead {
-    position: absolute;
-    width: 190px;
-    height: 26px;
-    font-family: 'Epilogue';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
-    letter-spacing: 2.5px;
-    color: #49566D;
-    margin-top: 1px;
-}
-
-.man {
-    position: absolute;
-    width: 1109px;
-    height: 545px;
-    left: 167px;
-    top: -199px;
-    background: #172339;
-    border-radius: 15px;
-    margin-top: -99px;
-}
-
-.blur {
-    position: absolute;
-    width: 294px;
-    height: 294px;
-    background: #DB65E2;
-    mix-blend-mode: normal;
-    opacity: 0.48;
-    filter: blur(67.957px);
-    margin: 210px 673px 41px 142px;
-}
-
-.jeremy {
-    position: absolute;
-    width: 359.81px;
-    height: 589.56px;
-    margin-left: 122px;
-    margin-right: 623px;
-    margin-bottom: 0px;
-    margin-top: -45px;
-}
-
-.curve {
-    position: absolute;
-    width: 64.05px;
-    height: 52px;
-    margin: 162px 528px 332px 518px;
-}
-
-.words {
-    position: absolute;
-    width: 350px;
-    height: 369px;
-    margin: 88px 125px 88px 634px;
-}
-
-.just {
-    position: absolute;
-    height: 56px;
-    font-family: 'Epilogue';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 48px;
-    line-height: 56px;
-    letter-spacing: -0.5px;
-    color: #FAF8F6;
-    margin-bottom: 40px;
-
-}
-
-.I {
-    position: absolute;
-    left: 0%;
-    right: 0%;
-    top: 26%;
-    bottom: 27%;
-    letter-spacing: 0.1px;
-    font-family: 'Epilogue';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 35px;
-    color: #F3EDE7;
-}
-
-.robin {
-    position: absolute;
-    width: 165px;
-    height: 32px;
-    right: 52.86%;
-    font-family: 'Epilogue';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 32px;
-    letter-spacing: -0.18px;
-    color: #FAF8F6;
-    margin-top: 343px;
-}
-
-.fylo {
-    position: absolute;
-    width: 190px;
-    height: 26px;
-    margin-top: 380px;
-    font-family: 'Epilogue';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 26px;
-    letter-spacing: 2.5px;
-    color: #F3EDE7;
-
-}
-
-.button {
-    position: absolute;
-    width: 1440px;
-    height: 464px;
-    top: 1252px;
-    background: #F3EDE7;
-
-}
-
-.last {
-    position: absolute;
-    width: 1109px;
-    height: 32px;
-    margin: 360px 167px 72px;
-}
-
-.logo {
-    position: absolute;
-    width: 81;
-    height: 32px;
-    font-family: 'Epilogue';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 32px;
-    line-height: 32px;
-    letter-spacing: -0.444444px;
-    color: #172339;
-}
-
-.copy {
-    position: absolute;
-    width: 125px;
-    height: 32px;
-    margin-left: 419px;
-    font-family: 'Epilogue';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 15px;
-    line-height: 32px;
-    text-align: center;
-    letter-spacing: 0.0833333px;
-    color: #49566D;
-}
-
-.media {
-    position: absolute;
-    width: 116px;
-    height: 20px;
-    left: 993px;
-    top: 6px;
-    cursor: pointer;
-
-}
-
-.insta {
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    margin-left: 84px;
-}
-
-.insta:hover {
-    background: #F3EDE7;
-    mix-blend-mode: normal;
-    opacity: 0.5;
-}
-
-.twi {
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    margin-left: 42px;
-}
-
-.twi:hover {
-    background: #F3EDE7;
-    mix-blend-mode: normal;
-    opacity: 0.5;
-}
-
-.face {
-    position: absolute;
-    width: 20px;
-    height: 20px;
-
-}
-
-.face:hover {
-    background: #F3EDE7;
-    mix-blend-mode: normal;
-    opacity: 0.5;
-
-
-
-}
-
-/* Mobile*/
-@media only screen and (min-width:320px) and (max-width:480px) {
-    body {
-        position: relative;
-        width: 375px;
-        height: 2389px;
-        background: #FAF8F6;
-        font-family: 'Epilogue', sans-serif;
-        font-style: normal;
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        height: 100%;
-        box-sizing: border-box;
+    .heading {
+        width: 1108.85px;
+        height: 56px;
+        margin: 50px 165px 0px 165px;
     }
 
     .head {
-        position: absolute;
-        width: 343px;
-        height: 48px;
-        left: 16px;
-        top: 24px;
+        display: flex;
+        justify-content: space-between;
     }
 
     .image1 {
-        position: absolute;
-        height: 32px;
-        letter-spacing: -0.444444px;
-        font-style: normal;
-        font-weight: 700;
-        font-size: 32px;
-        line-height: 32px;
-    }
-
-    .head {
-        display: inline-block;
+        width: 78.41px;
+        height: 24.8px;
     }
 
     .request {
-        position: absolute;
-        height: 24px;
-        padding: 12px 12px;
+        width: 219px;
+        height: 56px;
+        font-family: 'Epilogue';
+        font-style: normal;
         font-weight: 700;
-        font-size: 14px;
-        line-height: 24px;
-        letter-spacing: -0.14px;
-
-        color: #172339;
+        font-size: 16px;
+        line-height: 32px;
+        letter-spacing: 0.16px;
         border: 1px solid #172339;
         border-radius: 6px;
-        width: 182px;
-        height: 48px;
-        margin: 24px 16px auto 177px;
         box-sizing: border-box;
+        padding: 12px 20px;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        cursor: pointer;
+    }
 
+    .request:hover {
+        background-color: #172339;
+        color: #FAF8F6;
+        ;
     }
 
     .supper {
         position: absolute;
-        width: 344px;
-        height: 326px;
-        margin: 128px 16px auto 16px;
+        margin: 67px 165px 0px 165px;
+        position: absolute;
+        width: 1110px;
+        height: 600px;
+        background: url(./assets/image-hero-portrait.\ real.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-position-x: 473px;
+        margin-bottom: 155px;
     }
 
-    .line {
+    .curveline {
         position: absolute;
-        width: 152px;
-        height: 19px;
-        margin: 9px 54px auto 170px;
+        width: 287px;
+        height: 36px;
+        left: 27%;
+        top: 35px;
     }
 
     .textxl {
         position: absolute;
-        width: 343px;
-        height: 89px;
-        font-size: 38px;
+        width: 635px;
+        height: 156px;
+        top: 70px;
+        font-family: 'Epilogue';
+        font-style: normal;
         font-weight: 400;
-        line-height: 44px;
-        letter-spacing: -0.527778px;
+        font-size: 72px;
+        line-height: 78px;
+        letter-spacing: -1px;
         color: #172339;
-        margin: 56px auto 32px;
+
     }
 
     .textsm {
         position: absolute;
-        width: 343px;
-        height: 84px;
+        width: 350px;
+        height: 96px;
+        margin-top: 272px;
+        font-family: 'Epilogue';
+        font-style: normal;
         font-weight: 400;
-        font-size: 16px;
-        line-height: 28px;
-        letter-spacing: 0.0888889px;
+        font-size: 18px;
+        line-height: 32px;
+        letter-spacing: 0.1px;
         color: #49566D;
-        margin-top: 200px;
-        padding-bottom: 32px;
     }
 
     .Access {
-        width: 256px;
-        height: 61px;
-        margin-top: 300px;
+        position: absolute;
+        font-family: 'Epilogue';
+        font-style: normal;
         font-weight: 700;
         font-size: 18px;
         line-height: 32px;
         letter-spacing: -0.18px;
-        border-radius: 6px;
-        box-sizing: border-box;
-        padding: 15px 32px;
         color: #FAF8F6;
         background-color: #172339;
-        ;
+        border-radius: 6px;
+        margin-top: 420px;
+        padding: 15px 31px;
+        cursor: pointer;
+    }
+
+    .Access:hover {
+        background: linear-gradient(135deg, #A060FF 0%, #CB30E3 49.21%, #FFA84E 100%);
     }
 
     .phone {
-        background-image: url(./assets/image-hero-landscape-phone.png);
-        background-repeat: no-repeat;
         position: absolute;
-        width: 343px;
-        height: 240px;
-        left: 0px;
-        margin-top: 400px;
+        width: 350px;
+        height: 600px;
+        right: 450px;
+        left: 474px;
+        border-radius: 15px;
+
     }
 
     .numbers {
         position: absolute;
-        width: 344px;
-        height: 313px;
-        top: 650px;
-        margin-top: 56px;
-        margin-left: 128px;
+        width: 190px;
+        height: 375px;
+        margin: 30px 165px 0px 890px;
     }
 
     .top {
         position: absolute;
-        width: 343px;
-        height: 83px;
+        width: 190px;
+        height: 56px;
+        font-family: 'Epilogue';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 56px;
+        letter-spacing: -0.5px;
+        color: #172339;
+        margin-top: 30px;
+
+    }
+
+    .comp {
+        position: absolute;
+        width: 190px;
+        height: 26px;
+        font-family: 'Epilogue';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 2.5px;
+        color: #49566D;
+        margin-top: 1px;
+        margin-bottom: 90px;
     }
 
     .first {
+        margin-top: 210px;
         position: absolute;
-        width: 343px;
+        width: 190px;
         height: 83px;
-        margin-top: 128px;
+    }
+
+    .eight {
+        position: absolute;
+        width: 190px;
+        height: 56px;
+        font-family: 'Epilogue';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 56px;
+        letter-spacing: -0.5px;
+        color: #172339;
+    }
+
+    .lang {
+        position: absolute;
+        width: 190px;
+        height: 26px;
+        font-family: 'Epilogue';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 2.5px;
+        color: #49566D;
+        margin-top: 1px;
     }
 
     .second {
+        margin-top: 400px;
         position: absolute;
-        width: 343px;
+        width: 190px;
         height: 83px;
-        margin-top: 224px;
+    }
+
+    .money {
+        position: absolute;
+        width: 190px;
+        height: 56px;
+        font-family: 'Epilogue';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 56px;
+        letter-spacing: -0.5px;
+        color: #172339;
+    }
+
+    .lead {
+        position: absolute;
+        width: 190px;
+        height: 26px;
+        font-family: 'Epilogue';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 2.5px;
+        color: #49566D;
+        margin-top: 1px;
     }
 
     .man {
         position: absolute;
-        width: 573px;
-        height: 929px;
-        left: -99px;
-        margin-top: -600px;
-    }
-
-    .jeremy {
-        position: absolute;
-        width: 343px;
-        height: 402px;
-        margin-top: -181px;
+        width: 1109px;
+        height: 545px;
+        left: 167px;
+        top: -199px;
+        background: #172339;
+        border-radius: 15px;
+        margin-top: -99px;
     }
 
     .blur {
         position: absolute;
-        width: 279px;
-        height: 106px;
+        width: 294px;
+        height: 294px;
         background: #DB65E2;
-        mix-blend-mode: nomal;
+        mix-blend-mode: normal;
         opacity: 0.48;
         filter: blur(67.957px);
-        margin-top: -100;
+        margin: 210px 673px 41px 142px;
+    }
+
+    .jeremy {
+        position: absolute;
+        width: 359.81px;
+        height: 589.56px;
+        margin-left: 122px;
+        margin-right: 623px;
+        margin-bottom: 0px;
+        margin-top: -45px;
     }
 
     .curve {
         position: absolute;
-        width: 50px;
-        height: 40px;
-        margin: 261px 163px 447px 163px;
-        right: 20%;
-        color: #FAF8F6;
+        width: 64.05px;
+        height: 52px;
+        margin: 162px 528px 332px 518px;
+    }
+
+    .words {
+        position: absolute;
+        width: 350px;
+        height: 369px;
+        margin: 88px 125px 88px 634px;
     }
 
     .just {
         position: absolute;
-        width: 573px;
-        height: 48px;
-        font-weight: 400;
-        font-size: 40px;
-        line-height: 48px;
-        right: 60%;
-        letter-spacing: -0.416667px;
+        height: 56px;
+        font-family: 'Epilogue';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 56px;
+        letter-spacing: -0.5px;
         color: #FAF8F6;
-        margin-top: 300px;
+        margin-bottom: 40px;
+
     }
 
     .I {
         position: absolute;
-        width: 343px;
-        height: 160px;
+        left: 0%;
+        right: 0%;
+        top: 26%;
+        bottom: 27%;
+        letter-spacing: 0.1px;
+        font-family: 'Epilogue';
+        font-style: normal;
         font-weight: 400;
-        font-size: 18px;
-        line-height: 32px;
-        letter-spacing: 0.09px;
+        font-size: 20px;
+        line-height: 35px;
         color: #F3EDE7;
-        right: 60%;
-        margin-top: 350px;
-        margin-left: -450px;
     }
 
     .robin {
         position: absolute;
-        width: 190px;
-        height: 58px;
-        margin-top: 650px;
-        right: 155%;
+        width: 165px;
+        height: 32px;
+        right: 52.86%;
+        font-family: 'Epilogue';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 32px;
+        letter-spacing: -0.18px;
+        color: #FAF8F6;
+        margin-top: 343px;
     }
 
     .fylo {
         position: absolute;
         width: 190px;
-        height: 58px;
-        margin-top: 700px;
-        right: 150%;
+        height: 26px;
+        margin-top: 380px;
+        font-family: 'Epilogue';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        letter-spacing: 2.5px;
+        color: #F3EDE7;
+
     }
-
-
 
     .button {
         position: absolute;
-        width: 377px;
-        height: 420px;
-        left: 0px;
-        margin-top: 1090px;
+        width: 1440px;
+        height: 464px;
+        top: 1252px;
         background: #F3EDE7;
+
     }
 
     .last {
         position: absolute;
-        width: 125px;
-        height: 150px;
-        margin: 190px 128px 80px 125px;
+        width: 1109px;
+        height: 32px;
+        margin: 360px 167px 72px;
     }
 
     .logo {
         position: absolute;
-        width: 81px;
+        width: 81;
         height: 32px;
+        font-family: 'Epilogue';
+        font-style: normal;
         font-weight: 700;
         font-size: 32px;
         line-height: 32px;
@@ -702,82 +380,793 @@ h2 {
         position: absolute;
         width: 125px;
         height: 32px;
-        text-align: center;
-        letter-spacing: 0.0833333px;
+        margin-left: 419px;
+        font-family: 'Epilogue';
+        font-style: normal;
         font-weight: 400;
         font-size: 15px;
         line-height: 32px;
-        left: -440px;
-        margin-top: 33px;
         text-align: center;
+        letter-spacing: 0.0833333px;
+        color: #49566D;
     }
 
     .media {
         position: absolute;
         width: 116px;
         height: 20px;
-        left: -70px;
-        margin-top: 66px;
-        text-align: center;
+        left: 993px;
+        top: 6px;
+        cursor: pointer;
+
+    }
+
+    .insta {
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        margin-left: 84px;
+    }
+
+    .insta:hover {
+        background: #F3EDE7;
+        mix-blend-mode: normal;
+        opacity: 0.5;
+    }
+
+    .twi {
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        margin-left: 42px;
+    }
+
+    .twi:hover {
+        background: #F3EDE7;
+        mix-blend-mode: normal;
+        opacity: 0.5;
+    }
+
+    .face {
+        position: absolute;
+        width: 20px;
+        height: 20px;
+
+    }
+
+    .face:hover {
+        background: #F3EDE7;
+        mix-blend-mode: normal;
+        opacity: 0.5;
+
+
+
     }
 }
 
-/* Tablet*/
 
+
+
+
+
+
+
+
+/*Mobile*/
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+    margin: 25px auto 0 auto;
+
+    .heading {
+        position: absolute;
+        width: 343px;
+        height: 48px;
+        left: 16px;
+        right: 16px;
+        top: 24px;
+
+    }
+
+    .head {
+        position: absolute;
+        width: 343px;
+        height: 48px;
+        left: 16px;
+        right: 16px;
+        top: 24px;
+        display: inline-block;
+
+    }
+
+    .image1 {
+        position: absolute;
+        width: 81px;
+        height: 32px;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 32px;
+        letter-spacing: -0.444444px;
+        color: #172339;
+    }
+
+    .request {
+        position: absolute;
+        width: 182px;
+        height: 48px;
+        left: 161px;
+        right: 16px;
+        padding: 12px 10px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: -0.14px;
+        color: #172339;
+        border: 1px solid #172339;
+        border-radius: 6px;
+    }
+
+    .supper {
+        position: absolute;
+        width: 344px;
+        height: 326px;
+        left: 16px;
+        right: 16px;
+        top: 128px;
+    }
+
+    .curveline {
+        position: absolute;
+        width: 152px;
+        height: 19px;
+        left: 170px;
+        top: -20px;
+        color: #172339;
+    }
+
+    .textxl {
+        position: absolute;
+        width: 343px;
+        height: 89px;
+        left: 16px;
+        font-weight: 400;
+        font-size: 38px;
+        line-height: 44px;
+        letter-spacing: -0.527778px;
+        color: #172339;
+        padding-bottom: 32px;
+    }
+
+    .textsm {
+        position: absolute;
+        width: 343px;
+        height: 84px;
+        left: 16px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        letter-spacing: 0.0888889px;
+        color: #49566D;
+        margin-top: 90px;
+    }
+
+    .Access {
+        position: absolute;
+        width: 256px;
+        height: 61px;
+        left: 15.5px;
+        top: 210px;
+        padding: 15px 32px;
+        background: #172339;
+        border-radius: 6px;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 32px;
+        letter-spacing: -0.18px;
+        color: #FAF8F6;
+    }
+
+    .phone {
+        position: absolute;
+        left: 16px;
+        right: 16px;
+        background: url(./assets/image-hero-landscape-phone.png);
+        width: 343px;
+        height: 240px;
+        top: 330px;
+    }
+
+    .numbers {
+        position: absolute;
+        width: 344px;
+        height: 313px;
+        left: 10px;
+        right: 16px;
+        top: 630px;
+    }
+
+    .top {
+        position: absolute;
+        width: 343px;
+        height: 56px;
+        left: 15px;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 56px;
+        text-align: center;
+        color: #172339;
+    }
+
+    .comp {
+        position: absolute;
+        width: 343px;
+        height: 26px;
+        left: 15px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        letter-spacing: 2.5px;
+        color: #49566D;
+    }
+
+    .eight {
+        position: absolute;
+        width: 343px;
+        height: 56px;
+        left: 16px;
+        top: 88px;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 56px;
+        text-align: center;
+        color: #172339;
+    }
+
+    .lang {
+        position: absolute;
+        width: 343px;
+        height: 26px;
+        left: 16px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        letter-spacing: 2.5px;
+        color: #49566D;
+    }
+
+    .money {
+        position: absolute;
+        width: 343px;
+        height: 56px;
+        left: 15px;
+        top: 184px;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 56px;
+        text-align: center;
+        color: #172339;
+    }
+
+    .lead {
+        position: absolute;
+        width: 343px;
+        height: 26px;
+        left: 15px;
+        font-family: 'Epilogue';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        letter-spacing: 2.5px;
+        color: #49566D;
+    }
+
+    .button {
+        position: absolute;
+        width: 377px;
+        height: 420px;
+        top: 1969px;
+        background: #F3EDE7;
+    }
+
+    .man {
+        position: absolute;
+        width: 375px;
+        height: 748px;
+        top: -160%;
+        background: #172339;
+        border-radius: 15px;
+    }
+
+    .jeremy {
+        position: absolute;
+        width: 252px;
+        height: 402px;
+        top: -24%;
+        left: 65px;
+    }
+
+    .curve {
+        position: absolute;
+        width: 50px;
+        height: 40px;
+        left: 40%;
+        top: 40%;
+    }
+
+    .just {
+        position: absolute;
+        width: 573px;
+        height: 48px;
+        left: -27%;
+        top: 50%;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 48px;
+        text-align: center;
+        letter-spacing: -0.416667px;
+        color: #FAF8F6;
+    }
+
+    .I {
+        position: absolute;
+        width: 343px;
+        height: 160px;
+        top: 60%;
+        left: 5%;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 32px;
+        text-align: center;
+        letter-spacing: 0.09px;
+        color: #F3EDE7;
+    }
+
+    .robin {
+        position: absolute;
+        width: 165px;
+        height: 32px;
+        top: 85%;
+        left: 25%;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 32px;
+        text-align: center;
+        letter-spacing: -0.18px;
+        color: #FAF8F6;
+    }
+
+    .fylo {
+        position: absolute;
+        width: 190px;
+        height: 26px;
+        top: 89%;
+        left: 22%;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        letter-spacing: 2.5px;
+        color: #F3EDE7;
+    }
+
+    .logo {
+        position: absolute;
+        height: 32px;
+        width: 81px;
+        left: 40%;
+
+        top: 40%;
+        font-family: 'Epilogue';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 32px;
+        letter-spacing: -0.444444px;
+        color: #172339;
+    }
+
+    .copy {
+        position: absolute;
+        height: 32px;
+        left: 0%;
+        right: 0%;
+        top: 50%;
+        font-family: 'Epilogue';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 32px;
+        text-align: center;
+        letter-spacing: 0.0833333px;
+        color: #49566D;
+    }
+
+    .media {
+        position: absolute;
+        width: 116px;
+        height: 20px;
+        left: 40%;
+        top: 60%;
+
+    }
+
+}
+
+
+
+/*TABLET*/
 @media only screen and (min-width: 481px) and (max-width: 768px) {
-  
-    .head{
+
+    .head {
         position: absolute;
-            width: 689px;
-            height: 56px;
+        width: 689px;
+        height: 56px;
+        left: 39px;
+        right: 40px;
+        top: 40px;
     }
 
-    .supper{
+    .image1 {
         position: absolute;
-            width: 689px;
-            height: 482px;
+        height: 32px;
+        left: 0%;
+        right: 88.24%;
+        top: calc(50% - 32px/2);
+        font-family: 'Epilogue';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 32px;
+        letter-spacing: -0.444444px;
+
+        color: #172339;
     }
-    .line{
+
+    .request {
         position: absolute;
-            width: 232px;
-            height: 29px;
-            margin-top: 20px;
+        left: 68.21%;
+        right: 0%;
+        top: 0%;
+        bottom: 0%;
+        padding: 12px 20px;
+        box-sizing: border-box;
+        border: 1px solid #172339;
+        border-radius: 6px;
+        width: 219px;
+        height: 56px;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 32px;
+        letter-spacing: -0.16px;
+
+        color: #172339;
     }
-    .textxl{
-    position: absolute;
+
+    .supper {
+        position: absolute;
+        width: 689px;
+        height: 482px;
+        left: 39px;
+        top: 176px;
+        background: url(./assets/image-hero-portrait.\ real.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-position-x: 100%;
+        border-radius: 6px;
+    }
+
+
+
+    .curveline {
+        position: absolute;
+        width: 231.19px;
+        height: 29px;
+        left: 262px;
+        top: 20px;
+        color: #172339;
+    }
+
+    .textxl {
+        position: absolute;
         width: 573px;
         height: 129px;
+        left: 0%;
+        top: 10%;
         font-family: 'Epilogue';
-            font-weight: 400;
-            font-size: 56px;
-            line-height: 64px;
-            letter-spacing: -0.777778px;
-                color: #172339;
-    }
-    .textsm{
-        position: absolute;
-            width: 350px;
-            height: 84px;
-            font-family: 'Epilogue';
-                font-weight: 400;
-                font-size: 16px;
-                line-height: 28px;
-                letter-spacing: 0.0888889px;
-                color: #49566D;
-    }
-    .Access{
-        position: absolute;
-            width: 193px;
-            height: 32px;
-            font-family: 'Epilogue';
-                font-weight: 700;
-                font-size: 18px;
-                line-height: 32px;
-                letter-spacing: -0.18px;
-                color: #FAF8F6;
-                padding: 15px 31px 15px 31px;
-                text-align: center;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 60px;
+        line-height: 64px;
+        letter-spacing: -0.777778px;
+        color: #172339;
     }
 
-    
+    .textsm {
+        position: absolute;
+        width: 350px;
+        height: 84px;
+        left: 0%;
+        top: 220px;
+        font-family: 'Epilogue';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        letter-spacing: 0.0888889px;
+
+        color: #49566D;
+    }
+
+    .Access {
+        position: absolute;
+        width: 256px;
+        height: 61px;
+        left: 0%;
+        top: 353px;
+        padding: 15px 31px;
+        background: #172339;
+        border-radius: 6px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 32px;
+
+        letter-spacing: -0.18px;
+
+        color: #FAF8F6;
+    }
+
+    .numbers {
+        position: absolute;
+        width: 689px;
+        height: 83px;
+        left: 29px;
+        right: 40px;
+        top: 548px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .top {
+        position: absolute;
+        width: 223px;
+        height: 56px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 56px;
+        text-align: center;
+
+        color: #172339;
+
+    }
+
+    .comp {
+        position: absolute;
+        width: 223px;
+        height: 26px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        letter-spacing: 2.5px;
+        color: #49566D;
+    }
+
+    .first {
+        position: absolute;
+        margin-left: 30%;
+    }
+
+    .eight {
+        position: absolute;
+        width: 223px;
+        height: 56px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 56px;
+        text-align: center;
+        color: #172339;
+    }
+
+    .lang {
+        position: absolute;
+        width: 223px;
+        height: 26px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        letter-spacing: 2.5px;
+        color: #49566D;
+    }
+
+    .second {
+        position: absolute;
+        margin-left: 70%;
+    }
+
+    .money {
+        position: absolute;
+        width: 223px;
+        height: 56px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 56px;
+        text-align: center;
+        color: #172339;
+    }
+
+    .lead {
+        position: absolute;
+        width: 223px;
+        height: 26px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        letter-spacing: 2.5px;
+        color: #49566D;
+    }
+
+    .button {
+        position: absolute;
+        width: 768px;
+        height: 640px;
+        left: 0px;
+        top: 1222px;
+        background: #F3EDE7;
+    }
+
+    .man {
+        position: absolute;
+        width: 689px;
+        height: 684px;
+        left: 39px;
+        top: -30%;
+        background: #172339;
+        border-radius: 15px;
+    }
+
+    .jeremy {
+        position: absolute;
+        width: 252px;
+        height: 402px;
+        left: 228px;
+        right: 209px;
+        top: -180px;
+    }
+
+    .curve {
+        position: absolute;
+        width: 49.27px;
+        height: 40px;
+        left: 45%;
+        top: 40%;
+    }
+
+    .just {
+        position: absolute;
+        width: 573px;
+        height: 48px;
+        left: 8%;
+        top: 50%;
+        font-family: 'Epilogue';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 48px;
+        text-align: center;
+        letter-spacing: -0.416667px;
+        color: #FAF8F6;
+    }
+
+    .I {
+        position: absolute;
+        width: 573px;
+        height: 96px;
+        top: 60%;
+        left: 10%;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 32px;
+        text-align: center;
+        letter-spacing: 0.09px;
+        color: #F3EDE7;
+    }
+
+    .robin {
+        position: absolute;
+        width: 165px;
+        height: 32px;
+        top: 80%;
+        left: 39%;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 32px;
+        text-align: center;
+        letter-spacing: -0.18px;
+
+        color: #FAF8F6;
+    }
+
+    .fylo {
+        position: absolute;
+        width: 190px;
+        height: 26px;
+        top: 85%;
+        left: 37.5%;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        letter-spacing: 2.5px;
+
+        color: #F3EDE7;
+
+    }
+
+    .last {
+        position: absolute;
+        width: 689px;
+        height: 32px;
+        left: 39px;
+        top: 550px;
+    }
+
+    .logo {
+        position: absolute;
+        width: 81px;
+        height: 32px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 32px;
+        letter-spacing: -0.444444px;
+        color: #172339;
+    }
+
+    .copy {
+        position: absolute;
+        width: 125px;
+        height: 32px;
+        left: 41%;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 32px;
+        letter-spacing: 0.0833333px;
+        color: #49566D;
+    }
+
+    .media {
+        position: absolute;
+        width: 116px;
+        height: 20px;
+        left: 573px;
+    }
+
+    .face {
+        padding-right: 20px;
+    }
+
+    .twi {
+        padding-right: 20px;
+    }
+
 }
