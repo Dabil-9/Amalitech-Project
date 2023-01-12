@@ -453,12 +453,12 @@ body {
 
 
 /*Mobile*/
-@media only screen and (min-width: 320px) and (max-width: 480px) {
+@media only screen and (min-width: 320px) {
     margin: 25px auto 0 auto;
 
     .heading {
         position: absolute;
-        width: 343px;
+        width: 320px;
         height: 48px;
         left: 16px;
         right: 16px;
@@ -468,7 +468,7 @@ body {
 
     .head {
         position: absolute;
-        width: 343px;
+        width: 320px;
         height: 48px;
         left: 16px;
         right: 16px;
@@ -490,14 +490,14 @@ body {
 
     .request {
         position: absolute;
-        width: 182px;
+        width: 160px;
         height: 48px;
         left: 161px;
         right: 16px;
-        padding: 12px 10px;
+        padding: 12px 12px;
         font-style: normal;
         font-weight: 700;
-        font-size: 14px;
+        font-size: 12px;
         line-height: 24px;
         letter-spacing: -0.14px;
         color: #172339;
@@ -507,7 +507,7 @@ body {
 
     .supper {
         position: absolute;
-        width: 344px;
+        width: 320px;
         height: 326px;
         left: 16px;
         right: 16px;
@@ -518,18 +518,17 @@ body {
         position: absolute;
         width: 152px;
         height: 19px;
-        left: 170px;
+        left: 160px;
         top: -20px;
         color: #172339;
     }
 
     .textxl {
         position: absolute;
-        width: 343px;
-        height: 89px;
-        left: 16px;
+        width: 320px;
+        height: 80px;
         font-weight: 400;
-        font-size: 38px;
+        font-size: 35px;
         line-height: 44px;
         letter-spacing: -0.527778px;
         color: #172339;
@@ -538,22 +537,20 @@ body {
 
     .textsm {
         position: absolute;
-        width: 343px;
+        width: 320px;
         height: 84px;
-        left: 16px;
         font-weight: 400;
         font-size: 16px;
         line-height: 28px;
         letter-spacing: 0.0888889px;
         color: #49566D;
-        margin-top: 90px;
+        margin-top: 100px;
     }
 
     .Access {
         position: absolute;
         width: 256px;
         height: 61px;
-        left: 15.5px;
         top: 210px;
         padding: 15px 32px;
         background: #172339;
@@ -567,26 +564,26 @@ body {
 
     .phone {
         position: absolute;
-        left: 16px;
-        right: 16px;
+
         background: url(./assets/image-hero-landscape-phone.png);
-        width: 343px;
+        width: 320px;
         height: 240px;
+        border-radius: 6px;
         top: 330px;
     }
 
     .numbers {
         position: absolute;
-        width: 344px;
+        width: 320px;
         height: 313px;
-        left: 10px;
+
         right: 16px;
         top: 630px;
     }
 
     .top {
         position: absolute;
-        width: 343px;
+        width: 320px;
         height: 56px;
         left: 15px;
         font-weight: 700;
@@ -598,7 +595,7 @@ body {
 
     .comp {
         position: absolute;
-        width: 343px;
+        width: 320px;
         height: 26px;
         left: 15px;
         font-weight: 400;
@@ -611,7 +608,7 @@ body {
 
     .eight {
         position: absolute;
-        width: 343px;
+        width: 320px;
         height: 56px;
         left: 16px;
         top: 88px;
@@ -624,7 +621,7 @@ body {
 
     .lang {
         position: absolute;
-        width: 343px;
+        width: 320px;
         height: 26px;
         left: 16px;
         font-weight: 400;
@@ -637,7 +634,7 @@ body {
 
     .money {
         position: absolute;
-        width: 343px;
+        width: 320px;
         height: 56px;
         left: 15px;
         top: 184px;
@@ -650,7 +647,7 @@ body {
 
     .lead {
         position: absolute;
-        width: 343px;
+        width: 320px;
         height: 26px;
         left: 15px;
         font-family: 'Epilogue';
@@ -665,16 +662,19 @@ body {
 
     .button {
         position: absolute;
-        width: 377px;
+        width: 320px;
         height: 420px;
         top: 1969px;
+
+        left: 16px;
         background: #F3EDE7;
     }
 
     .man {
         position: absolute;
-        width: 375px;
+        width: 320px;
         height: 748px;
+
         top: -160%;
         background: #172339;
         border-radius: 15px;
@@ -685,7 +685,7 @@ body {
         width: 252px;
         height: 402px;
         top: -24%;
-        left: 65px;
+        left: 10%;
     }
 
     .curve {
@@ -693,15 +693,15 @@ body {
         width: 50px;
         height: 40px;
         left: 40%;
-        top: 40%;
+        top: 35%;
     }
 
     .just {
         position: absolute;
-        width: 573px;
+        width: 320px;
         height: 48px;
-        left: -27%;
-        top: 50%;
+
+        top: 45%;
         font-style: normal;
         font-weight: 400;
         font-size: 40px;
@@ -713,10 +713,11 @@ body {
 
     .I {
         position: absolute;
-        width: 343px;
+        width: 320px;
         height: 160px;
-        top: 60%;
-        left: 5%;
+        top: 55%;
+        padding-left: 22px;
+        padding-right: 22px;
         font-style: normal;
         font-weight: 400;
         font-size: 18px;
@@ -798,7 +799,6 @@ body {
     }
 
 }
-
 
 
 /*TABLET*/
